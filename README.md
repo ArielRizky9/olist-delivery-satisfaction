@@ -3,7 +3,7 @@
 Proyek analisis data pada marketplace Olist (Brasil): seberapa besar keterlambatan
 pengiriman menurunkan skor review, dan di mana perbaikan logistik perlu diprioritaskan.
 
-**Dashboard interaktif (Tableau Public):** [tempel link]
+**Dashboard interaktif (Tableau Public):** https://public.tableau.com/views/OlistDeliveryCustomerSatisfaction_17953610979450/DashboardOlist
 
 ## Temuan utama
 - Hanya 6,77% dari 96.470 order delivered yang terlambat, tetapi skor review turun
