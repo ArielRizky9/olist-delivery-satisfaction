@@ -1,0 +1,304 @@
+{
+  "eda": {
+    "missing": [
+      {
+        "kolom": "products.product_width_cm",
+        "kosong": 2,
+        "persen": 0.01
+      },
+      {
+        "kolom": "products.product_height_cm",
+        "kosong": 2,
+        "persen": 0.01
+      },
+      {
+        "kolom": "products.product_length_cm",
+        "kosong": 2,
+        "persen": 0.01
+      },
+      {
+        "kolom": "products.product_weight_g",
+        "kosong": 2,
+        "persen": 0.01
+      },
+      {
+        "kolom": "orders.order_approved_at",
+        "kosong": 160,
+        "persen": 0.16
+      },
+      {
+        "kolom": "orders.order_delivered_carrier_date",
+        "kosong": 1783,
+        "persen": 1.79
+      },
+      {
+        "kolom": "products.product_name_lenght",
+        "kosong": 610,
+        "persen": 1.85
+      },
+      {
+        "kolom": "products.product_category_name",
+        "kosong": 610,
+        "persen": 1.85
+      },
+      {
+        "kolom": "products.product_photos_qty",
+        "kosong": 610,
+        "persen": 1.85
+      },
+      {
+        "kolom": "products.product_description_lenght",
+        "kosong": 610,
+        "persen": 1.85
+      },
+      {
+        "kolom": "orders.order_delivered_customer_date",
+        "kosong": 2965,
+        "persen": 2.98
+      },
+      {
+        "kolom": "reviews.review_comment_message",
+        "kosong": 58247,
+        "persen": 58.7
+      },
+      {
+        "kolom": "reviews.review_comment_title",
+        "kosong": 87656,
+        "persen": 88.34
+      }
+    ],
+    "delivered_tanpa_tanggal": 8,
+    "order_review_ganda": 547,
+    "review_id_duplikat": 814,
+    "geo_di_luar_brasil": 42,
+    "lama_kirim": {
+      "min": 0.53,
+      "median": 10.22,
+      "max": 209.63,
+      "skewness": 3.83,
+      "batas_atas_IQR": 29.15,
+      "jumlah_outlier": 4899,
+      "negatif": 0
+    },
+    "harga": {
+      "min": 0.85,
+      "max": 6735.0,
+      "ongkir_nol": 383
+    },
+    "skor_review_persen": {
+      "1": 11.51,
+      "2": 3.18,
+      "3": 8.24,
+      "4": 19.29,
+      "5": 57.78
+    },
+    "skor_review_skewness": -1.36,
+    "bulan_data_sedikit": {
+      "2016-09": 4,
+      "2016-10": 324,
+      "2016-11": 0,
+      "2016-12": 1,
+      "2018-09": 16,
+      "2018-10": 4
+    },
+    "porsi_state_top3_persen": 66.61
+  },
+  "kpi": {
+    "total_order_delivered": 96470,
+    "total_pelanggan_unik": 93350,
+    "total_revenue_brl": 15421082.85,
+    "rata2_nilai_order_brl": 159.86,
+    "rata2_review": 4.156,
+    "persen_puas_skor4_5": 78.93,
+    "persen_terlambat": 6.77,
+    "rata2_hari_kirim": 12.56,
+    "median_hari_kirim": 10.22,
+    "rata2_estimasi_hari": 23.74,
+    "periode": "2016-09-15 s.d. 2018-08-29",
+    "persen_pelanggan_repeat": 3.0
+  },
+  "telat_vs_tepat": [
+    {
+      "order": 89443,
+      "rata2_review": 4.29,
+      "persen_puas": 82.658,
+      "persen_skor1": 6.619,
+      "status": "Tepat waktu"
+    },
+    {
+      "order": 6381,
+      "rata2_review": 2.27,
+      "persen_puas": 26.704,
+      "persen_skor1": 53.769,
+      "status": "Terlambat"
+    }
+  ],
+  "uji_statistik": {
+    "mann_whitney_U": 103305546.0,
+    "p_value": 0.0,
+    "effect_size_rank_biserial": 0.638,
+    "spearman_hari_kirim_vs_review": -0.2346,
+    "p_spearman_hari_kirim": 0.0,
+    "spearman_selisih_estimasi_vs_review": -0.1764,
+    "p_spearman_selisih": 0.0
+  },
+  "rute_seller": [
+    {
+      "order": 61769,
+      "rata2_hari_kirim": 15.15,
+      "persen_terlambat": 8.048,
+      "rata2_review": 4.096,
+      "rata2_ongkir": 26.905,
+      "rute": "Beda state"
+    },
+    {
+      "order": 34701,
+      "rata2_hari_kirim": 7.945,
+      "persen_terlambat": 4.504,
+      "rata2_review": 4.263,
+      "rata2_ongkir": 15.453,
+      "rute": "Seller & pelanggan satu state"
+    }
+  ],
+  "multi_seller": [
+    {
+      "n_sellers": false,
+      "order": 94563,
+      "rata2_review": 4.173
+    },
+    {
+      "n_sellers": true,
+      "order": 1261,
+      "rata2_review": 2.861
+    }
+  ],
+  "bias_representasi": {
+    "porsi_SP_persen": 41.98,
+    "porsi_3_state_teratas_persen": 66.55,
+    "state_order_kurang_dari_500": [
+      "PI",
+      "RN",
+      "AL",
+      "SE",
+      "TO",
+      "RO",
+      "AM",
+      "AC",
+      "AP",
+      "RR"
+    ],
+    "persen_order_tanpa_review": 0.67,
+    "persen_review_berkomentar": 40.59
+  },
+  "cleaning_log": {
+    "review_duplikat_dihapus": 551,
+    "produk_tanpa_kategori": 610,
+    "geo_duplikat_dihapus": 261831,
+    "geo_outlier_dihapus": 33,
+    "order_bukan_delivered_atau_tanpa_tanggal": 2971,
+    "order_tanggal_tidak_logis": 0,
+    "order_tanpa_review": 646,
+    "order_final_dianalisis": 96470
+  },
+  "top5_state_telat": [
+    {
+      "customer_state": "MA",
+      "order": 717,
+      "persen_terlambat": 17.434,
+      "rata2_hari_kirim": 21.573,
+      "rata2_review": 3.833
+    },
+    {
+      "customer_state": "CE",
+      "order": 1279,
+      "persen_terlambat": 13.761,
+      "rata2_hari_kirim": 21.267,
+      "rata2_review": 3.944
+    },
+    {
+      "customer_state": "BA",
+      "order": 3256,
+      "persen_terlambat": 12.162,
+      "rata2_hari_kirim": 19.335,
+      "rata2_review": 3.931
+    },
+    {
+      "customer_state": "RJ",
+      "order": 12350,
+      "persen_terlambat": 12.105,
+      "rata2_hari_kirim": 15.309,
+      "rata2_review": 3.965
+    },
+    {
+      "customer_state": "PA",
+      "order": 946,
+      "persen_terlambat": 11.205,
+      "rata2_hari_kirim": 23.773,
+      "rata2_review": 3.914
+    }
+  ],
+  "top5_kategori_revenue": [
+    {
+      "main_category": "Health Beauty",
+      "order": 8621,
+      "revenue": 1413962.84,
+      "rata2_review": 4.232
+    },
+    {
+      "main_category": "Watches Gifts",
+      "order": 5453,
+      "revenue": 1257614.41,
+      "rata2_review": 4.129
+    },
+    {
+      "main_category": "Bed Bath Table",
+      "order": 9239,
+      "revenue": 1241203.08,
+      "rata2_review": 4.003
+    },
+    {
+      "main_category": "Sports Leisure",
+      "order": 7477,
+      "revenue": 1115498.71,
+      "rata2_review": 4.238
+    },
+    {
+      "main_category": "Computers Accessories",
+      "order": 6519,
+      "revenue": 1037027.89,
+      "rata2_review": 4.083
+    }
+  ],
+  "kategori_review_terendah": [
+    {
+      "main_category": "Office Furniture",
+      "order": 1244,
+      "rata2_review": 3.656,
+      "persen_terlambat": 8.119
+    },
+    {
+      "main_category": "Bed Bath Table",
+      "order": 9239,
+      "rata2_review": 4.003,
+      "persen_terlambat": 7.458
+    },
+    {
+      "main_category": "Unknown",
+      "order": 1336,
+      "rata2_review": 4.051,
+      "persen_terlambat": 7.111
+    },
+    {
+      "main_category": "Telephony",
+      "order": 4071,
+      "rata2_review": 4.058,
+      "persen_terlambat": 7.148
+    },
+    {
+      "main_category": "Furniture Decor",
+      "order": 6208,
+      "rata2_review": 4.073,
+      "persen_terlambat": 7.184
+    }
+  ]
+}

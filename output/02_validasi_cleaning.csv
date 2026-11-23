@@ -1,0 +1,8 @@
+cek,sebelum,sesudah
+baris orders,99441,96470
+baris reviews,99224,98673
+order dengan >1 review,547,0
+produk tanpa kategori,610,0
+baris geolocation,1000163,738299
+titik di luar Brasil,42,0
+order delivered tanpa tanggal terima,8,0
